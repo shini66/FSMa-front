@@ -1,4 +1,4 @@
-import Example from "../components/example/reloj";
+import Example from "../page/Shop";
 
 function App() {
   
