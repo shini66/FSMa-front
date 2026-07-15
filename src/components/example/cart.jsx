@@ -5,11 +5,10 @@ function totalCartPrice(cart){
     return cart.reduce((total, cart) => total + cart.precio, 0);
 }
 
-
 function Cart(){
     const [productName, setProductName] = useState('');
     const [productPrice, setProductPrice] = useState('');
-    const [cart, setCart] = useState([{ type: 'Existen', nombre: 'Teclado', precio: 100 }, { type: 'Existen', nombre: 'Auricular', precio: 100 }]);
+    const [cart, setCart] = useState([]);
 
     const addProduct = (product) => {
         setCart((prevCart) => [...prevCart, product])
