@@ -15,6 +15,12 @@ function PublicLayout() {
             <Link to="/about" className="text-gray-600 hover:text-indigo-600 transition-colors font-medium">
               Acerca de
             </Link>
+            <Link to="/users" className="text-gray-600 hover:text-indigo-600 transition-colors font-medium">
+              Usuarios
+            </Link>
+            <Link to="/articles" className="text-gray-600 hover:text-indigo-600 transition-colors font-medium">
+              Articulos
+            </Link>
             <Link to="/login" className="text-gray-600 hover:text-indigo-600 transition-colors font-medium">
               Login
             </Link>
